@@ -1,5 +1,20 @@
-div{
-    background-color: azure;
-    padding:10PX;
-    margin-bottom: 30px;
+*{
+    box-sizing: border-box;
+}
+.one{
+    width: 500px;height: 400px;
+    margin: 25% auto;
+    background-color: cadetblue;
+    border: 5px solid red;
+}
+
+.content{
+    text-align: center;margin-top: 8px;
+}
+.two , input{
+    align-items: center;
+    display: block;
+    margin: 5px;
+    padding: 8px;
+    justify-content: center;
 }
